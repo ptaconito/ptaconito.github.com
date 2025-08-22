@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>G'S DRIVER SHOP — Repuestos Toyota</title>
+  <meta name="description" content="Venta de repuestos para Toyota. Calidad, garantía y atención profesional." />
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://gs-fotos.b-cdn.net" crossorigin>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <img src="https://gs-fotos.b-cdn.net/logo.png" alt="Logo G'S DRIVER SHOP" class="brand-logo" decoding="async" />
+        <span>G'S DRIVER SHOP</span>
+      </a>
+      <nav aria-label="Menú principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a class="active" href="#inicio">Inicio</a></li>
+          <li><a href="./productos.html#lubricantes">Productos</a></li>
+          <li><a href="./servicios.html#servicios">Servicios</a></li>
+          <li><a href="./nosotros.html#nosotros">Nosotros</a></li>
+          <li><a href="#animacion">Ruta</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Slider -->
+  <section id="inicio" class="hero">
+    <div class="slider" aria-label="Galería destacada">
+     <div class="slides">
+      <figure id="slide-1" class="slide is-active">
+        <img src="https://gs-fotos.b-cdn.net/slider1.jpg" alt="Repuestos originales para Toyota" />
+        <figcaption>Calidad que protege tu motor</figcaption>
+      </figure>
+      <figure id="slide-2" class="slide">
+        <img src="https://gs-fotos.b-cdn.net/slider2.jpg" alt="Atención profesional en tienda" loading="lazy" decoding="async" />
+        <figcaption>Asesoría experta y atención rápida</figcaption>
+      </figure>
+      <figure id="slide-3" class="slide">
+        <img src="https://gs-fotos.b-cdn.net/slider3.jpg" alt="Amplia variedad de piezas" loading="lazy" decoding="async" />
+        <figcaption>Variedad y garantía en cada compra</figcaption>
+      </figure>
+</div>
+
+      <button class="slider-btn prev" aria-label="Anterior">❮</button>
+      <button class="slider-btn next" aria-label="Siguiente">❯</button>
+
+      <div class="dots" role="tablist" aria-label="Paginación del carrusel">
+        <button class="dot is-active" role="tab" aria-selected="true" aria-controls="slide-1"></button>
+        <button class="dot" role="tab" aria-selected="false" aria-controls="slide-2"></button>
+        <button class="dot" role="tab" aria-selected="false" aria-controls="slide-3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 Secciones de Información -->
+  <section id="productos" class="container info-grid">
+    <!-- Sección 1 -->
+    <article class="info-card">
+      <figure class="img-zoom">
+        <img src="https://gs-fotos.b-cdn.net/aceites.jpg" alt="Aceites y lubricantes" loading="lazy" decoding="async" />
+      </figure>
+      <div class="info-body">
+        <h2 class="section-title">Aceites y Lubricantes</h2>
+        <p>Trabajamos con marcas de alto desempeño para alargar la vida útil del motor y mantener la garantía de tu Toyota.</p>
+        <a class="btn" href="productos.html#lubricantes">Ver productos</a>
+      </div>
+    </article>
+
+    <!-- Sección 2 -->
+    <article class="info-card reverse">
+      <figure class="img-zoom">
+        <img src="https://gs-fotos.b-cdn.net/suspension.jpg" alt="Piezas de suspensión" loading="lazy" decoding="async" />
+      </figure>
+      <div class="info-body">
+        <h2 class="section-title">Suspensión y Tren Delantero</h2>
+        <p>Seguridad y precisión con piezas de calidad. Rótulas, terminales, bujes y más.</p>
+        <a class="btn" href="productos.html#suspension">Ver suspensión</a>
+      </div>
+    </article>
+
+    <!-- Sección 3 -->
+    <article class="info-card">
+      <figure class="img-zoom">
+        <img src="https://gs-fotos.b-cdn.net/enfriamiento.jpg" alt="Sistema de enfriamiento" loading="lazy" decoding="async" />
+      </figure>
+      <div class="info-body">
+        <h2 class="section-title">Enfriamiento</h2>
+        <p>Bombas de agua, radiadores y refrigerantes que mantienen la temperatura óptima.</p>
+        <a class="btn" href="productos.html#enfriamiento">Ver enfriamiento</a>
+      </div>
+    </article>
+
+    <!-- Sección 4 -->
+    <article class="info-card reverse">
+      <figure class="img-zoom">
+        <img src="https://gs-fotos.b-cdn.net/frenos.jpg" alt="Sistema de frenos" loading="lazy" decoding="async" />
+      </figure>
+      <div class="info-body">
+        <h2 class="section-title">Frenos</h2>
+        <p>Pastillas, discos y kits con estándares de seguridad para tu manejo diario.</p>
+        <a class="btn" href="productos.html#frenos">Ver frenos</a>
+      </div>
+    </article>
+  </section>
+
+    <!-- Ruta Toyota -->
+  <section id="animacion" class="container ruta-toyota" aria-label="Ruta Toyota animada">
+    <div class="ruta-inner">
+      <header class="ruta-head">
+        <h2 class="section-title">Ruta Toyota</h2>
+        <p class="section-intro"> el movimiento constante de nuestra tienda: repuestos que llegan rápido, seguros y con garantía.</p>
+      </header>
+
+      <div class="road" aria-hidden="true">
+        <span class="centerline" aria-hidden="true"></span>
+        <!-- Carrusel de productos (decorativo) -->
+        <div class="product-stream" aria-hidden="true">
+          <div class="track">
+            <!-- Lista 1 -->
+            <img src="./img/shampoo.PNG" alt="">
+            <img src="./img/bomba-gas.PNG" alt="">
+            <img src="./img/copa-caja.PNG" alt="">
+            <img src="./img/15w40.PNG" alt="">
+            <img src="./img/concha.PNG" alt="">
+            <img src="./img/conjunto-gas.PNG" alt="">
+            <img src="./img/bomba-aceite.PNG" alt="">
+          
+
+            <img src="./img/shampoo.PNG" alt="">
+            <img src="./img/bomba-gas.PNG" alt="">
+            <img src="./img/copa-caja.PNG" alt="">
+            <img src="./img/15w40.PNG" alt="">
+            <img src="./img/concha.PNG" alt="">
+            <img src="./img/conjunto-gas.PNG" alt="">
+            <img src="./img/bomba-aceite.PNG" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <ul class="parts">
+        <li class="chip">Aceites</li>
+        <li class="chip">Conchas</li>
+        <li class="chip">Bombas de Aceite</li>
+        <li class="chip">Tapa filtro</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contacto</h2>
+      <p>¿Buscas una pieza específica o cotización? Escríbenos y te ayudamos.</p>
+      <form class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="nombre">Nombre y Apellido</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Ej. Juan Pérez" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com" required />
+        </div>
+        <div class="form-row">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu consulta..." required></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar mensaje</button>
+        <p class="form-msg" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p><strong>Gerardo Goncalves — C.I. 28.185.584</strong></p>
+      <p><strong>REPÚBLICA BOLIVARIANA DE VENEZUELA UNIVERSIDAD BICENTENARIA DE ARAGUA VICERRECTORADO ACADÉMICO FACULTAD DE INGENIERÍA ESCUELA DE INGENIERÍA EN SISTEMAS SAN JOAQUÍN DE TURMERO - ESTADO ARAGUA</strong></p>
+      <p>© <span id="year"></span> G'S DRIVER SHOP. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
